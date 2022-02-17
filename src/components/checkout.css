@@ -1,0 +1,24 @@
+.checkout {
+  min-height: 70vh;
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.checkout__left {
+  width: 70%;
+}
+.checkout__right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}

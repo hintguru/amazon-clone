@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+  z-index: 10;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 13px;
+  padding: 16px;
+  border: none;
+  width: 100%;
+  outline: none;
+  border-radius: 1px;
+}
+.header__searchIcon {
+  padding: 7px;
+  height: 32px !important;
+  border-radius: 1px;
+  background-color: #ffd814;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__link {
+  text-decoration: none;
+}
+.header__optionLineOne {
+  font-size: 10px;
+  font-family: "Mulish", sans-serif;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__cart {
+  height: 25px;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
